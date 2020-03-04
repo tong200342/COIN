@@ -17,13 +17,14 @@ namespace Kotchasan;
  *
  * @since 1.0
  */
-class Object
+class Oj
+/**oj=object*/
 {
     /**
      * คืนค่ารายการที่มีคอลัมน์ตามที่กำหนด.
      *
-     * @assert (array((object)array('id' => 1, 'name' => 'one'), (object)array('id' => 2, 'name' => 'two'), (object)array('id' => 3, 'name' => 'three')), 'name') [==] (object)array(0 => 'one', 1 => 'two', 2 => 'three')
-     * @assert (array((object)array('id' => 1, 'name' => 'one'), (object)array('id' => 2, 'name' => 'two'), (object)array('id' => 3, 'name' => 'three')), 'name', 'id') [==] (object)array(1 => 'one', 2 => 'two', 3 => 'three')
+     * @assert (array((oj)array('id' => 1, 'name' => 'one'), (oj)array('id' => 2, 'name' => 'two'), (oj)array('id' => 3, 'name' => 'three')), 'name') [==] (oj)array(0 => 'one', 1 => 'two', 2 => 'three')
+     * @assert (array((oj)array('id' => 1, 'name' => 'one'), (oj)array('id' => 2, 'name' => 'two'), (oj)array('id' => 3, 'name' => 'three')), 'name', 'id') [==] (oj)array(1 => 'one', 2 => 'two', 3 => 'three')
      *
      * @param array  $array
      * @param string $column_key ชื่อคอลัมน์ที่ต้องการ
