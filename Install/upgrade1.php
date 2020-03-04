@@ -10,6 +10,7 @@ if (defined('ROOT_PATH')) {
     if ($username == '') {
         echo '<p class=comment><em>กรุณากรอก ชื่อผู้ใช้ของคุณ</em></p>';
     } else {
+        
         echo '<p class=comment>ชื่อผู้ใช้ของคุณ</p>';
     }
     echo '<p class=item><label for=password>รหัสผ่าน</label><span class="g-input icon-password"><input type=text maxlength=20 size=50 id=password name=password value="'.$password.'"></span></p>';
