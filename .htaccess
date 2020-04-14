@@ -1,7 +1,0 @@
-# cache 1 week
-#<filesMatch ".(jpg|jpeg|png|gif|ico)$">
-#  Header set Cache-Control "max-age=604800, public"
-#</filesMatch>
-#<filesMatch ".(css|js|ttf|woff|svg|eot)$">
-#  Header set Cache-Control "max-age=604800, public"
-#</filesMatch>
