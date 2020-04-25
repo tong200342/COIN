@@ -50,8 +50,8 @@ class View extends \Gcms\View
             'labelClass' => 'g-input icon-upload',
             'itemClass' => 'item',
             'label' => '{LNG_Browse file}',
-            'placeholder' => 'omsin.csv',
-            'comment' => '{LNG_Select a file for importing, omsin.csv only (<a href="index.php/index/model/database/demo" target=_blank><em>download sample here</em></a>)}',
+            'placeholder' => 'coin.csv',
+            'comment' => '{LNG_Select a file for importing, coin.csv only (<a href="index.php/index/model/database/demo" target=_blank><em>download sample here</em></a>)}',
             'accept' => array('csv'),
         ));
         $div = $fieldset->add('div', array(
@@ -70,7 +70,7 @@ class View extends \Gcms\View
         ));
         $div->add('div', array(
             'class' => 'message',
-            'innerHTML' => '{LNG_Download <em>omsin.csv</em> file for database backup}',
+            'innerHTML' => '{LNG_Download <em>coin.csv</em> file for database backup}',
         ));
         // export
         $div->add('a', array(
