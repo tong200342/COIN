@@ -4,7 +4,7 @@
 
 return array(
     'version' => '2.1.1',
-    'web_title' => 'ออมสิน',
+    'web_title' => 'COIN',
     'web_description' => 'แอพพลิเคชั่น รายรับ-รายจ่าย ฟรี',
     'timezone' => 'Asia/Bangkok',
     /* ข้อมูล Mail Server สำหรับการขอรหัสผ่านใหม่ */
